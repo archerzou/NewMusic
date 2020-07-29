@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archer Music Player</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class="player-container" id="player-container">
+        <!-- Song -->
+        <div class="img-container">
+            <img src="https://res.cloudinary.com/kevinzou/image/upload/v1596012082/newimage/%E5%90%AC%E6%88%91%E8%AF%B4-min_riasid.jpg" alt="Album Art">
+        </div>
+        <h2 id="title">周深-听我说</h2>
+        <h3 id="artist">人世间总会有心酸，还好有我們做伴</h3>
+        <audio src="https://res.cloudinary.com/kevinzou/video/upload/v1582686612/music/%E5%91%A8%E6%B7%B1-%E8%81%BD%E6%88%91%E8%AA%AA_sh7ujo.mp3"></audio>
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">2:06</span>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+    </article>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
