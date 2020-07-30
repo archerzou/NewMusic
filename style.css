@@ -37,7 +37,7 @@ body {
   object-fit: cover;
   border-radius: 100%;
   box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
-  animation: rotate 3s linear infinite;
+  animation: rotate 15s linear infinite;
 
   animation-play-state: paused;
 }
